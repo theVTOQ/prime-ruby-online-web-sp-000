@@ -22,9 +22,9 @@ def prime?(n)
   #ex: 39/2 ~= 19, prime
 
   #make a list of base multiples until reach less than half
-  return true if n > 1 && n <= 3
+  return true if n == 2 || n == 3
   return false if n == 1 || n.even? || n < 0
-  preceding_integers = [3..n]
+  
   i = 3
   while i < (n/2).floor
     return false if n % i == 0
