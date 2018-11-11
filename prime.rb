@@ -1,8 +1,9 @@
 # Add  code here!
 def prime?(n)
-  #example prime numbers: 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 43, 47
+  #example prime numbers: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 43, 47
   #1 is not prime
   #all prime numbers are odd except 2
+  #negative numbers are not prime
   #lowest possible base multiple for a non-prime odd number is 3, excluding 1
   #no base multiples of an odd number will be greater than
   #its truncated half
