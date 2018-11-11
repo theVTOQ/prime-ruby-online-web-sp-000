@@ -10,8 +10,8 @@ def prime?(n)
   return true if n == 2 || n == 3
   return false if n == 1 || n.even? || n < 0
 
-  i = 3
-  while i < (n/2).floor
+  i = 3 #starting base multiple
+  while i < (n/2).floor #max base multiple
     return false if n % i == 0
     i += 1
   end
